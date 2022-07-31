@@ -1,24 +1,17 @@
-# ssr
+# vue-ssr
+本项目是用 vue-ssr + express
+> 官网：https://v2.ssr.vuejs.org/zh/
 
-## Project setup
 ```
+# 安装依赖
 yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
+# 打客户端和服务端的包
 yarn build
+
+# 运行 node
+node /server/index.js
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+访问方式：
+localhost:3000
