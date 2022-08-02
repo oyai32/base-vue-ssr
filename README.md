@@ -10,7 +10,8 @@ yarn install
 yarn build
 
 # 运行 node
-node /server/index.js
+cd server
+node index.js
 ```
 
 访问方式：
